@@ -5,7 +5,7 @@ public record Book(int pages, String author, double cost, String genre, String n
 
     // End of the chaining( last one calls class` constructor)
     public Book(int pages, String author, double cost) {
-        this(pages, author, cost, "Fantasy", "J.R.R. Tolkien", 0);
+        this(pages, author, cost, "Fantasy", "J.R.R. Tolkin", 0);
     }
 
     public Book() {
